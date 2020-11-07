@@ -1,4 +1,5 @@
 import React from 'react';
+import './index.css';
 
 const Footer = () => {
 
@@ -7,7 +8,7 @@ const Footer = () => {
     return(
         <>
         <footer>
-            <p>Copywright {year}</p>
+            <p>Copywright {year} By <a className="footer_link" href="http://itsharry46.me">Hariharan Achary</a> </p>
         </footer>
         </>
     );
